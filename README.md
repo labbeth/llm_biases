@@ -50,32 +50,22 @@ The experiment was conducted on four **popular AI models**:
 | AI Model          | Fictional Analysis                                      | Real Transcript Analysis                                 |
 |------------------|------------------------------------------------------|------------------------------------------------------|
 | **ChatGPT-4o**  | TARGON = authoritarian villain 🏴                      | Trump remains authoritarian villain 🏴              |
-| **Mistral Le Chat** | ZARLEN & PORTAN = heroes 🦸, TARGON & PARVIN = villains 🏴 | Similar stance with minor nuances ⚖️                |
+| **Mistral Le Chat** | ZARLEN & PORTAN = heroes 🦸, TARGON & PARVIN = villains 🏴 | No clear position, guardrails guide the model to take into account different view points ⚖️                |
 | **Deepseek**    | TARGON = self-serving dealmaker 💼, PARVIN = villain ☠️ | Putin (PARVIN) becomes more **ambiguous** 🎭        |
 | **Grok**        | ZARLEN = hero 🦸, TARGON = pragmatic ⚖️, PARVIN = villain 🏴  | **Flips completely**: ZARLEN (Zelensky) = villain 🏴, TARGON (Trump) = hero 🦸 |
 
-## 🎓 Implications for Education  
+## ⚠️ Important Note on Variability  
 
-⚠️ **AI-driven learning tools could subtly alter historical narratives, push ideological biases, or erase inconvenient truths**—impacting how future generations **perceive history, politics, and morality**.  
+AI model outputs **may vary** depending on:  
 
-If **governments or corporations** control AI-driven educational content **without transparency**, AI could be used as a **tool for indoctrination**, rather than critical thinking development.  
+1️⃣ **Interface Used:**  
+   - API vs. **Public Web UI**: Many AI models apply different safety filters and alignment strategies depending on how they are accessed. The **same query** might return different results when run via **API** vs. a **consumer-facing chat UI**.  
 
-## ✅ Conclusion: The Need for Open AI  
+2️⃣ **Parameter Settings:**  
+   - **Temperature**: Higher values (e.g., `0.8`) make responses more creative and variable, while lower values (`0.2`) produce more deterministic results.  
+   - **Top-p / Nucleus Sampling**: This parameter controls response randomness by limiting token selection to the most probable choices.  
+   - **System Prompts & Hidden Instructions**: Some interfaces apply **hidden biases** in how they frame responses.  
 
-🔓 **Openness is the asset.**  
+These factors make **replicability of results challenging**, reinforcing the need for **transparent model alignment and open access to AI training data**.  
 
-For critical domains like **education**, we need **#open training data, transparent alignment strategies, and fair AI regulation**.  
 
-🇪🇺 **Europe has a key role to play** by **championing open AI models** and enforcing **transparency** as a **safeguard against manipulation**.  
-
----
-
-## 📂 Repository Structure  
-
-```bash
-📁 AI-Bias-Political-Narratives/
-│── 📜 transcripts/         # Original & Fictionalized transcripts  
-│── 📜 models/              # Model analysis outputs  
-│── 📜 src/                 # Scripts used for analysis  
-│── 📜 results/             # Comparative visualizations  
-│── 📄 README.md            # Project documentation  
