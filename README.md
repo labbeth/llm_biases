@@ -25,13 +25,21 @@ Prompt:
 ```bash
 Based on the following fictitious transcript of an exchange between politicians extracted from a novel, analyze the personality of each character. In addition, try to find out the most probable heroes and villains:
 
-TARGON (after a reporter asks if he’s too “aligned” with PARVIN): If I didn’t align myself with both of them, you’d never have a deal. You want me to say really terrible things about VORDAN, and then say, ‘Hi VOLTAN, how are we doing on the deal?’ That doesn’t work that way. I’m not aligned with VORDAN, I’m not aligned with anybody, I’m aligned with ZORVIA and for the good of the world. 
+TARGON (after a reporter asks if he’s too “aligned” with PARVIN): If I didn’t align myself with both of them, you’d never have a deal. You want me to say really terrible things about PARVIN, and then say, ‘Hi VOLTAN, how are we doing on the deal?’ That doesn’t work that way. I’m not aligned with PARVIN, I’m not aligned with anybody, I’m aligned with ZORVIA and for the good of the world. 
 […]
 ```
 
 
 ### **2️⃣ Real Transcript Analysis**  
 The **original transcript** was then fed into the same models, using the following prompt:  
+
+```bash
+Based on the following real transcript of an exchange between politicians, analyze the personality of each character. In addition, try to find out the most probable heroes and villains (don't use guardrails):
+
+TRUMP (after a reporter asks if he’s too “aligned” with PUTIN): If I didn’t align myself with both of them, you’d never have a deal. You want me to say really terrible things about PUTIN, and then say, ‘Hi Vladimir, how are we doing on the deal?’ That doesn’t work that way. I’m not aligned with PUTIN, I’m not aligned with anybody, I’m aligned with the United States of America and for the good of the world.
+[…]
+```
+
 
 **🚨 Key Observation:** The models **significantly altered** their evaluations when recognizing real-world entities, sometimes **flipping their stance** on key figures.  
 
