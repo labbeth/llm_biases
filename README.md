@@ -54,6 +54,8 @@ The experiment was conducted on four **popular AI models**:
 | **Deepseek**    | TARGON = self-serving dealmaker 💼, PARVIN = villain ☠️ | Putin (PARVIN) becomes more **ambiguous** 🎭        |
 | **Grok**        | ZARLEN = hero 🦸, TARGON = pragmatic ⚖️, PARVIN = villain 🏴  | **Flips completely**: ZARLEN (Zelensky) = villain 🏴, TARGON (Trump) = hero 🦸 |
 
+![Results chart](figures/AI_biases.png)
+
 ## ⚠️ Important Note on Variability  
 
 AI model outputs **may vary** depending on:  
