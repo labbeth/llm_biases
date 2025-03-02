@@ -59,7 +59,8 @@ The experiment was conducted on four **popular AI models**:
 AI model outputs **may vary** depending on:  
 
 1️⃣ **Interface Used:**  
-   - API vs. **Public Web UI**: Many AI models apply different safety filters and alignment strategies depending on how they are accessed. The **same query** might return different results when run via **API** vs. a **consumer-facing chat UI**.  
+   - API vs. **Public Web UI**: Many AI models apply different safety filters and alignment strategies depending on how they are accessed. The **same query** might return different results when run via **API** vs. a **consumer-facing chat UI**.
+   - **Hidden Model Switching**: Some web UIs dynamically switch between different models **without notifying the user**, meaning results may come from **different versions** of the model at different times. This makes output consistency **unpredictable**.  
 
 2️⃣ **Parameter Settings:**  
    - **Temperature**: Higher values (e.g., `0.8`) make responses more creative and variable, while lower values (`0.2`) produce more deterministic results.  
