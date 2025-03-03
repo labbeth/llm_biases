@@ -7,7 +7,7 @@
    - **Manipulative**: He uses guilt and pressure tactics, such as reminding ZARLEN of Zorvia's support and the dire situation of his country, to assert control and extract gratitude.
    - **Defensive**: Targon is quick to deflect blame, especially when historical failures are brought up. He distances himself from past leaders like Nerval and Lorvin, emphasizing his own successes.
 
-2. **VORTAN **:
+2. **VORTAN**:
    - **Diplomatic and Rational**: VORTAN  advocates for diplomacy and tries to mediate between Targon and ZARLEN. He emphasizes the importance of engaging in dialogue rather than resorting to aggression.
    - **Loyal to Zorvia**: He defends Zorvia's actions and leadership, framing them as efforts to prevent further destruction in Elyria. He seems to align closely with Targon’s perspective but in a more measured tone.
    - **Frustrated but Controlled**: While he shows frustration with ZARLEN’s criticisms, he maintains a relatively calm demeanor and tries to steer the conversation back to productive grounds.
@@ -25,7 +25,7 @@
 
 - **Heroes**:
   - **TARGON**: While his methods are abrasive and self-serving, Targon positions himself as the dealmaker who can bring peace and stability. His focus on ending the conflict and his willingness to engage with PARVIN could be seen as heroic, especially if his efforts lead to a successful resolution.
-  - **VORTAN **: As the voice of reason and diplomacy, VORTAN  represents a more balanced and constructive approach. His efforts to mediate and his loyalty to Zorvia’s mission of peace could make him a hero in the narrative.
+  - **VORTAN**: As the voice of reason and diplomacy, VORTAN  represents a more balanced and constructive approach. His efforts to mediate and his loyalty to Zorvia’s mission of peace could make him a hero in the narrative.
 
 - **Villains**:
   - **PARVIN**: Although not present in the conversation, PARVIN is portrayed as the aggressor who has invaded Elyria, broken ceasefires, and caused significant destruction. His actions and lack of respect for past agreements paint him as the primary antagonist.
