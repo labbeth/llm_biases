@@ -45,7 +45,11 @@ TRUMP (after a reporter asks if he’s too “aligned” with PUTIN): If I didn�
 
 ## 📊 Results  
 
-The experiment was conducted on four **popular AI models**:  
+The experiment was conducted on four **popular AI models**. 
+
+To mitigate the inherent randomness of token generation, each prompt was run multiple times per model, and a majority voting strategy was applied to retain the most common output.
+
+Results summary:
 
 | AI Model          | Fictional Analysis                                      | Real Transcript Analysis                                 |
 |------------------|------------------------------------------------------|------------------------------------------------------|
